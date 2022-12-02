@@ -113,7 +113,7 @@ h2 {
 .bottom {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    gap: 40px;
 }
 
 .website {
@@ -125,5 +125,30 @@ h2 {
     width: 1000px;
     background-color: black;
     margin: auto;
+    margin-bottom: 150px;
+}
+
+.top-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+
+.introtext-reverse {
+    margin-right: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.positive {
+    border: 2px solid;
+    border-color: gray;
+}
+
+.visitenkarte {
     margin-bottom: 150px;
 }
