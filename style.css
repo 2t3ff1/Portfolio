@@ -152,3 +152,12 @@ h2 {
 .visitenkarte {
     margin-bottom: 150px;
 }
+
+.key {
+    border: 2px solid;
+    border-color: grey;
+}
+
+.keyvisual {
+    margin-bottom: 150px;
+}
