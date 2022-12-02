@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    flex-direction: row;
 }
 
 .title {
@@ -24,30 +25,29 @@ body {
     margin-left: 12px;
 }
 
-button {
-    font-size: 24px;
-    width: 150px;
-    height: 50px;
-}
-
-.button {
+.links {
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    align-items: center;
 }
 
-.left, .right {
-    background-color: white;
-    border: 3px solid;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    border: 2px solid;
+    padding: 5px 15px;
     border-radius: 8px;
     transition-duration: 0.4s;
 }
 
-.left:hover {
-    background-color: black;
-    color: white;
-}
-
-.right:hover {
+a:hover {
     background-color: black;
     color: white;
 }
