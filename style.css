@@ -1,6 +1,7 @@
 body {
     margin-left: 100px;
     margin-right: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -49,4 +50,28 @@ button {
 .right:hover {
     background-color: black;
     color: white;
+}
+
+.intro {
+    margin-top: 100px;
+    display: flex;
+}
+
+.introtext {
+    margin-left: 50px;
+}
+
+.myNameIs {
+    font-size: 24px;
+    max-width: 600px;
+}
+
+.hi {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+img {
+    border-radius: 8px;
 }
