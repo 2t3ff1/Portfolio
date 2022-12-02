@@ -67,7 +67,7 @@ button {
 }
 
 .hi {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
     margin: 0;
 }
@@ -91,6 +91,39 @@ img {
 }
 
 h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.top {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.bioladen {
     font-size: 36px;
     font-weight: bold;
+}
+
+.design {
+    border: 2px solid;
+    border-color: gray;
+}
+
+.bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.website {
+    margin-bottom: 150px;
+}
+
+.line3 {
+    height: 5px;
+    width: 1000px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 150px;
 }
