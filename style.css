@@ -75,3 +75,22 @@ button {
 img {
     border-radius: 8px;
 }
+
+.line1, .line2 {
+    height: 5px;
+    width: 700px;
+    background-color: black;
+}
+
+.projekte {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
