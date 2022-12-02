@@ -182,3 +182,21 @@ h2 {
     font-size: 24px;
     margin-bottom: 150px;
 }
+
+.top-words {
+    display: flex;
+    justify-content: space-between;
+}
+
+.programs {
+    font-size: 24px;
+}
+
+.bottom-words {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fähigkeiten {
+    margin-bottom: 150px;
+}
